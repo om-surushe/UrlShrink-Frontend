@@ -18,7 +18,7 @@ const Login = () => {
     const handleSubmit = async(e) =>{
         e.preventDefault();
         try {
-            const url = "http://shrinksite.herokuapp.com/api/auth";
+            const url = "https://url-shrink-xi.vercel.app/api/auth";
             const {data: res} = await axios.post(url,data);
             localStorage.setItem("token",res.data);
             window.location = '/'
