@@ -25,3 +25,19 @@
 	cursor: pointer;
 	margin-right: 20px;
 }
+
+.list_container{
+	margin: 1em;
+	border-radius: 1em;
+	padding: 1em;
+	background-color: #3bb19b;
+}
+
+.link_table{
+	width: 100%;
+}
+
+
+.link_table tr, th{
+	text-align: left;
+}
